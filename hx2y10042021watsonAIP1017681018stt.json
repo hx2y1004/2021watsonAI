@@ -1,0 +1,16 @@
+hx2y@DESKTOP-4JB0O91:~$ curl -X POST -u "apikey:DePkXsp8YMrhtvisAHubmk3_RkgqJ-bBXuPiKot1D-WN" --header "Content-type: audio/mp3" --data-binary @news2.mp3 "https://stream.watsonplatform.net/speech-to-text/api/v1/recongnize?model=ko-KR_BroadbandModel"
+{
+	"result_index": 0,
+	"results": [
+	    {
+		"final": true,
+		"alternatives":  [
+		    {
+			"transcript": "E. C. J. 월드컵에서 오래 태극전사 들이 사상 첫 준우승을 차지하며 새 역사를 썼습니다. 비록 우승트로피를 놓쳤지만 그래도 정말 잘 먹었습니다 이번
+대회를 통해 한국 축구의 밝ㅇ느 미래를 봤다는 분들이 많습니다. ",
+ 			"confidence": 0.04
+		    }
+		]
+	    }
+	]
+}
